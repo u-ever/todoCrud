@@ -1,0 +1,45 @@
+html, body, section {
+    background-color: rgba(196, 212, 226, 0.733);
+}
+
+.title {
+    text-align: center;
+    margin-top: 25px;
+}
+
+#counter {
+    background-color: rgb(19, 73, 52);
+    color:white;
+    font-family: monospace;
+    width: 10%;
+    text-align: center;
+    margin: auto;
+}
+
+.form {
+    margin: auto;
+    max-width: 80%;
+    text-align: center;    
+}
+
+input[type='submit'], button, [aria-label] {
+    cursor: pointer;
+}
+
+#edit-box{
+    max-width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    display: none;
+}
+
+td {
+    background-color: aliceblue;  
+    padding: 10px;
+    text-align: left;
+}
+
+.to-do{
+	background: transparent !important;
+}
+
